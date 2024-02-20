@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <h2>Candidates:</h2>
+    <ul>
+        <% for (const candidate of candidates) { %>
+            <li><%= candidate.name %>: <%= candidate.votes %> votes</li>
+        <% } %>
+    </ul>
+    <h2>Voters:</h2>
+    <ul>
+        <% for (const user of users) { %>
+            <li><%= user.username %></li>
+        <% } %>
+    </ul>
+    <a href="/logout">Logout</a>
+</body>
+</html>

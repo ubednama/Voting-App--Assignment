@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/stylesheets/register.css">
+</head>
+<body>
+    <div class="register">
+        <h1>Register</h1>
+        <form action="/register" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="password" minlength="8" required title="Password must contain atleast 8 characters">
+
+            <label for="emailId">Email Id:</label>
+            <input type="email" id="emailId" name="emailId" placeholder="Email Id" required title="Please enter proper email Id">
+
+            <label for="phoneNum">Phone No:</label>
+            <input type="tel" id="phoneNum" name="phoneNum" placeholder="Phone No." pattern="[0-9]{10}" required title="Please enter 10-digit phone number">
+
+            <div class="buttons">    
+                <button type="register"><a href="/login" >
+                    Login</a>
+                </button>
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+[
+  {"_id": "candidate1", "name": "Candidate 1", "votes": 16},
+  {"_id": "candidate2", "name": "Candidate 2", "votes": 110},
+  {"_id": "candidate3", "name": "Candidate 3", "votes": 20},
+  {"_id": "candidate4", "name": "Candidate 4", "votes": 30}
+]
