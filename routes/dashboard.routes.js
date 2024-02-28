@@ -4,10 +4,6 @@ import User from '../models/user.models.js';
 
 const router = express.Router()
 
-// Update all admin users to set voted field to false
-
-
-
 // Dashboard route
 router.get('/', async (req, res) => {
   await User.updateMany({ isAdmin: true }, { $set: { voted: false } })
