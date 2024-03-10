@@ -1,6 +1,6 @@
 # voting-app
 
-The Voting App is a web application that allows users to vote for their preferred options. It features user authentication, a secure voting system to ensure each user can only vote once, and an admin dashboard for managing the voting process.
+Voting App is a web application that allows users to vote for their preferred options. It features user authentication, a secure voting system to ensure each user can only vote once, and an admin dashboard for managing the voting process.
 
 ## Features
 
